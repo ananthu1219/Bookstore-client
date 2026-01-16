@@ -1,0 +1,19 @@
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+@import 'flowbite';
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+*{
+  font-family: "Roboto Slab", serif;
+}
+
+p{
+  font-family: "Dancing Script", cursive;
+}
+body{
+  background-color: rgb(255, 243, 227);
+}

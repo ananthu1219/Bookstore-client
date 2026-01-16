@@ -1,0 +1,8 @@
+.bg{
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/16/19/01/ai-generated-8512895_1280.jpg');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
