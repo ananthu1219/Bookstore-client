@@ -1,4 +1,4 @@
-
+import { Analytics } from "@vercel/analytics/next"
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './users/pages/Home'
@@ -51,6 +51,7 @@ function App() {
       
         <Route path='*' element={<PageNotFound />} />
       </Routes>
+      <Analytics />
     </>
   )
 }
